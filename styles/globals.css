@@ -1,0 +1,60 @@
+@import url("https://api.fontshare.com/v2/css?f[]=expose@700,400&f[]=clash-display@400,700,500&f[]=alpino@300,400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html{
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+section{
+  width: 85%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, span, button{
+  font-family: "Clash Display", sans-serif;
+}
+
+/* h6, button, input, select, a{
+  font-family: "Expose", sans-serif;
+} */
+
+p,  label, a, input{
+  font-family: 'Alpino', sans-serif;
+}
+
+input{
+  background: none;
+}
+
+.mySwiper{
+  width: 100%;
+  height: 350px;
+}
+
+.mySwiper .swiper-slide{
+  width: auto;
+}
+
+.mySwiper .swiper-pagination-bullet-active{
+  background: #000;
+}
+
+@media screen and (max-width: 800px) {
+  section{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  section{
+    width: 95%;
+  }
+}
+
