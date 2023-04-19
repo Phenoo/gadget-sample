@@ -10,7 +10,7 @@ const FooterSection = () => {
   return (
     <div className='bg-[#8590aa] text-white pt-20 pb-6'>
       <section>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-8'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-4 py-8'>
           <article>
             <Logo />
             <p>

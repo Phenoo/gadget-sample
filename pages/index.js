@@ -6,6 +6,7 @@ import ReviewSection from "@/components/sections/ReviewSection";
 import Services from "@/components/sections/Services";
 import Subscribe from "@/components/sections/Subscribe";
 import { FaStar, FaCircle } from "react-icons/fa";
+import { MdRectangle, MdPentagon} from 'react-icons/md'
 
 export default function Home() {
   return (
@@ -13,14 +14,14 @@ export default function Home() {
       <HeroSection />
       {/* <Overflow text='ready to get started?' bgcolor='#111' colorx='#fff' /> */}
       <Services />
-      <Overflow text='ready to get started?' colorx='#111'icon={<FaCircle color='#ff8180' />} />
+      <Overflow text='ready to get started?' colorx='#111' icon={<FaCircle color='#ff8180' />} />
       <Subscribe />
-      <Overflow text='success stories' bgcolor='#111' colorx='#fff' />
+      <Overflow text='success stories' bgcolor='#111' colorx='#fff' icon={<FaStar color="green" />} />
       <ReviewSection />
-      <Overflow text='technoly news and trends' bgcolor='#111' colorx='#fff'  />
+      <Overflow text='technoly news and trends' bgcolor='#111' colorx='#fff' icon={<MdPentagon color="red" />}  />
       <BlogSection />
       <Faq  />
-      <Overflow text='ready to take a leap? '  bgcolor='#111' colorx='#fff' />
+      <Overflow text='ready to take a leap? '  bgcolor='#111' colorx='#fff'  icon={<MdRectangle color="yellow" />}/>
 
     </main>
   )

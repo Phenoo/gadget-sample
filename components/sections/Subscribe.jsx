@@ -21,7 +21,7 @@ const Subscribe = () => {
             <form>
               <div className='bg-[#fff0f0] flex gap-4 items-center border-2 border-black p-4 rounded-full'>
                 <input type="text" placeholder='Enter your email address'
-                  className='w-[300px] md:w-[350px] lg:w-[400px] outline-none placeholder:font-bold placeholder:text-black'
+                  className='w-[200px] md:w-[350px] lg:w-[400px] outline-none placeholder:font-bold placeholder:text-black'
                   />
                 <Button title='join' bgcolor='rgb(255, 201, 0)' />
               </div>
