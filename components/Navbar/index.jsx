@@ -44,7 +44,7 @@ const NavigationBar = () => {
           </div>
 
       </header>
-      
+      <hr />
     </nav>
   )
 }
